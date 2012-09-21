@@ -3,7 +3,11 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Birthday</th>
     <th>Age</th>
+    <th>Sex</th>
+    <th>Ethnicity</th>
+    <th>Biotype</th>
     <th></th>
     <th></th>
     <th></th>
@@ -12,7 +16,11 @@
 <% @models.each do |model| %>
   <tr>
     <td><%= model.name %></td>
+    <td><%= model.birthday %></td>
     <td><%= model.age %></td>
+    <td><%= model.sex %></td>
+    <td><%= model.ethnicity %></td>
+    <td><%= model.biotype %></td>
     <td><%= link_to 'Show', model %></td>
     <td><%= link_to 'Edit', edit_model_path(model) %></td>
     <td><%= link_to 'Destroy', model, method: :delete, data: { confirm: 'Are you sure?' } %></td>
