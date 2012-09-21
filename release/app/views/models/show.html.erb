@@ -1,15 +1,181 @@
-<p id="notice"><%= notice %></p>
+<div class="basic info">
+  <p>
+    <b>Name:</b>
+    <%= @model.name %>
+  </p>
+  <p>
+    <b>Birthday:</b>
+    <%= @model.birthday %>
+  </p>
+  <p>
+    <b>Age:</b>
+    <%= @model.age %>
+  </p>
+  <p>
+    <b>Sex:</b>
+    <%= @model.sex %>
+  </p>
+  <p>
+    <b>Ethnicity:</b>
+    <%= @model.ethnicity %>
+  </p>
+  <p>
+    <b>Biotype:</b>
+    <%= @model.biotype %>
+  </p>
+</div>
+<div class="responsible info">
+  <p>
+    <b>Responsible:</b>
+    <%= @model.responsible %>
+  </p>
+  <p>
+    <b>Responsible cpf:</b>
+    <%= @model.responsible_cpf %>
+  </p>
+  <p>
+    <b>Responsible rg:</b>
+    <%= @model.responsible_rg %>
+  </p>
+</div>
+<div class="body info">
+  <p>
+    <b>Height:</b>
+    <%= @model.height %>
+  </p>
+  <p>
+    <b>Eyes color:</b>
+    <%= @model.eyes_color %>
+  </p>
+  <p>
+    <b>Hair color:</b>
+    <%= @model.hair_color %>
+  </p>
+  <p>
+    <b>Bust:</b>
+    <%= @model.bust %>
+  </p>
+  <p>
+    <b>Waist:</b>
+    <%= @model.waist %>
+  </p>
+  <p>
+    <b>Hip:</b>
+    <%= @model.hip %>
+  </p>
+  <p>
+    <b>Shoes:</b>
+    <%= @model.shoes %>
+  </p>
+</div>
+<div class="model info">
+  <p>
+    <b>Sector:</b>
+    <%= @model.sector %>
+  </p>
+  <p>
+    <b>Job:</b>
+    <%= @model.job %>
+  </p>
+  <p>
+    <b>Rg:</b>
+    <%= @model.rg %>
+  </p>
+  <p>
+    <b>Cpf:</b>
+    <%= @model.cpf %>
+  </p>
+  <p>
+    <b>Cel phone:</b>
+    <%= @model.cel_phone %>
+  </p>
+  <p>
+    <b>Home phone:</b>
+    <%= @model.home_phone %>
+  </p>
+  <p>
+    <b>Job phone:</b>
+    <%= @model.job_phone %>
+  </p>
+</div>
+<div class="address info">
+  <p>
+    <b>Address:</b>
+    <%= @model.address %>
+  </p>
+  <p>
+    <b>Address number:</b>
+    <%= @model.address_number %>
+  </p>
+  <p>
+    <b>Neighborhood:</b>
+    <%= @model.neighborhood %>
+  </p>
+  <p>
+    <b>Complement:</b>
+    <%= @model.complement %>
+  </p>
+  <p>
+    <b>Cep:</b>
+    <%= @model.cep %>
+  </p>
+  <p>
+    <b>City:</b>
+    <%= @model.city %>
+  </p>
+  <p>
+    <b>State:</b>
+    <%= @model.state %>
+  </p>
+  <p>
+    <b>Country:</b>
+    <%= @model.country %>
+  </p>
+</div>
+<div class="bank info">
+  <p>
+    <b>Bank:</b>
+    <%= @model.bank %>
+  </p>
+  <p>
+    <b>Bank agency:</b>
+    <%= @model.bank_agency %>
+  </p>
+  <p>
+    <b>Bank account:</b>
+    <%= @model.bank_account %>
+  </p>
+  <p>
+    <b>Bank account type:</b>
+    <%= @model.bank_account_type %>
+  </p>
+</div>
+<div class="personal info">
+  <p>
+    <b>Personal email:</b>
+    <%= @model.personal_email %>
+  </p>
+  <p>
+    <b>Job email:</b>
+    <%= @model.job_email %>
+  </p>
+  <p>
+    <b>Other email:</b>
+    <%= @model.other_email %>
+  </p>
+  <p>
+    <b>Site url:</b>
+    <%= @model.site_url %>
+  </p>
+</div>
 
-<p>
-  <b>Name:</b>
-  <%= @model.name %>
-</p>
-
-<p>
-  <b>Age:</b>
-  <%= @model.age %>
-</p>
-
+<%= form_for @model, :action => :update, :format => :js, :remote => true do |f| %>
+  <div class="field">
+    <%= f.label :score %><br />
+    <%= f.select(:score, options_for_select(models_scores, @model.score)) %>
+    <%= f.submit 'Rate!' %>
+  </div>
+<% end %>
 
 <%= link_to 'Edit', edit_model_path(@model) %> |
 <%= link_to 'Back', models_path %>
