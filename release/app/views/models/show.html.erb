@@ -1,170 +1,170 @@
 <div class="basic info">
   <p>
-    <b>Name:</b>
+    <b><%= Model.human_attribute_name(:name) %>:</b>
     <%= @model.name %>
   </p>
   <p>
-    <b>Birthday:</b>
+    <b><%= Model.human_attribute_name(:birthday) %>:</b>
     <%= @model.birthday %>
   </p>
   <p>
-    <b>Age:</b>
+    <b><%= Model.human_attribute_name(:age) %>:</b>
     <%= @model.age %>
   </p>
   <p>
-    <b>Sex:</b>
-    <%= @model.sex %>
+    <b><%= Model.human_attribute_name(:gender) %>:</b>
+    <%= I18n.t(@model.gender, scope: :genders) %>
   </p>
   <p>
-    <b>Ethnicity:</b>
-    <%= @model.ethnicity %>
+    <b><%= Model.human_attribute_name(:ethnicity) %>:</b>
+    <%= I18n.t(@model.ethnicity, scope: :ethnicities) %>
   </p>
   <p>
-    <b>Biotype:</b>
-    <%= @model.biotype %>
+    <b><%= Model.human_attribute_name(:biotype) %>:</b>
+    <%= I18n.t(@model.biotype, scope: :biotypes) %>
   </p>
 </div>
 <div class="responsible info">
   <p>
-    <b>Responsible:</b>
+    <b><%= Model.human_attribute_name(:responsible) %>:</b>
     <%= @model.responsible %>
   </p>
   <p>
-    <b>Responsible cpf:</b>
+    <b><%= Model.human_attribute_name(:responsible_cpf) %>:</b>
     <%= @model.responsible_cpf %>
   </p>
   <p>
-    <b>Responsible rg:</b>
+    <b><%= Model.human_attribute_name(:responsible_rg) %>:</b>
     <%= @model.responsible_rg %>
   </p>
 </div>
 <div class="body info">
   <p>
-    <b>Height:</b>
+    <b><%= Model.human_attribute_name(:height) %>:</b>
     <%= @model.height %>
   </p>
   <p>
-    <b>Eyes color:</b>
+    <b><%= Model.human_attribute_name(:eyes_color) %>:</b>
     <%= @model.eyes_color %>
   </p>
   <p>
-    <b>Hair color:</b>
+    <b><%= Model.human_attribute_name(:hair_color) %>:</b>
     <%= @model.hair_color %>
   </p>
   <p>
-    <b>Bust:</b>
+    <b><%= Model.human_attribute_name(:bust) %>:</b>
     <%= @model.bust %>
   </p>
   <p>
-    <b>Waist:</b>
+    <b><%= Model.human_attribute_name(:waist) %>:</b>
     <%= @model.waist %>
   </p>
   <p>
-    <b>Hip:</b>
+    <b><%= Model.human_attribute_name(:hip) %>:</b>
     <%= @model.hip %>
   </p>
   <p>
-    <b>Shoes:</b>
+    <b><%= Model.human_attribute_name(:shoes) %>:</b>
     <%= @model.shoes %>
   </p>
 </div>
 <div class="model info">
   <p>
-    <b>Sector:</b>
+    <b><%= Model.human_attribute_name(:sector) %>:</b>
     <%= @model.sector %>
   </p>
   <p>
-    <b>Job:</b>
+    <b><%= Model.human_attribute_name(:job) %>:</b>
     <%= @model.job %>
   </p>
   <p>
-    <b>Rg:</b>
+    <b><%= Model.human_attribute_name(:rg) %>:</b>
     <%= @model.rg %>
   </p>
   <p>
-    <b>Cpf:</b>
+    <b><%= Model.human_attribute_name(:cpf) %>:</b>
     <%= @model.cpf %>
   </p>
   <p>
-    <b>Cel phone:</b>
+    <b><%= Model.human_attribute_name(:cel_phone) %>:</b>
     <%= @model.cel_phone %>
   </p>
   <p>
-    <b>Home phone:</b>
+    <b><%= Model.human_attribute_name(:home_phone) %>:</b>
     <%= @model.home_phone %>
   </p>
   <p>
-    <b>Job phone:</b>
+    <b><%= Model.human_attribute_name(:job_phone) %>:</b>
     <%= @model.job_phone %>
   </p>
 </div>
 <div class="address info">
   <p>
-    <b>Address:</b>
+    <b><%= Model.human_attribute_name(:address) %>:</b>
     <%= @model.address %>
   </p>
   <p>
-    <b>Address number:</b>
+    <b><%= Model.human_attribute_name(:address_number) %>:</b>
     <%= @model.address_number %>
   </p>
   <p>
-    <b>Neighborhood:</b>
+    <b><%= Model.human_attribute_name(:neighborhood) %>:</b>
     <%= @model.neighborhood %>
   </p>
   <p>
-    <b>Complement:</b>
+    <b><%= Model.human_attribute_name(:complement) %>:</b>
     <%= @model.complement %>
   </p>
   <p>
-    <b>Cep:</b>
+    <b><%= Model.human_attribute_name(:cep) %>:</b>
     <%= @model.cep %>
   </p>
   <p>
-    <b>City:</b>
+    <b><%= Model.human_attribute_name(:city) %>:</b>
     <%= @model.city %>
   </p>
   <p>
-    <b>State:</b>
-    <%= @model.state %>
+    <b><%= Model.human_attribute_name(:state) %>:</b>
+    <%= I18n.t(@model.state, scope: :states) unless @model.state.nil? || @model.state.blank? %>
   </p>
   <p>
-    <b>Country:</b>
+    <b><%= Model.human_attribute_name(:country) %>:</b>
     <%= @model.country %>
   </p>
 </div>
 <div class="bank info">
   <p>
-    <b>Bank:</b>
+    <b><%= Model.human_attribute_name(:bank) %>:</b>
     <%= @model.bank %>
   </p>
   <p>
-    <b>Bank agency:</b>
+    <b><%= Model.human_attribute_name(:bank_agency) %>:</b>
     <%= @model.bank_agency %>
   </p>
   <p>
-    <b>Bank account:</b>
+    <b><%= Model.human_attribute_name(:bank_account) %>:</b>
     <%= @model.bank_account %>
   </p>
   <p>
-    <b>Bank account type:</b>
+    <b><%= Model.human_attribute_name(:bank_account_type) %>:</b>
     <%= @model.bank_account_type %>
   </p>
 </div>
 <div class="personal info">
   <p>
-    <b>Personal email:</b>
+    <b><%= Model.human_attribute_name(:personal_email) %>:</b>
     <%= @model.personal_email %>
   </p>
   <p>
-    <b>Job email:</b>
+    <b><%= Model.human_attribute_name(:job_email) %>:</b>
     <%= @model.job_email %>
   </p>
   <p>
-    <b>Other email:</b>
+    <b><%= Model.human_attribute_name(:other_email) %>:</b>
     <%= @model.other_email %>
   </p>
   <p>
-    <b>Site url:</b>
+    <b><%= Model.human_attribute_name(:site_url) %>:</b>
     <%= @model.site_url %>
   </p>
 </div>
@@ -172,10 +172,10 @@
 <%= form_for @model, :action => :update, :format => :js, :remote => true do |f| %>
   <div class="field">
     <%= f.label :score %><br />
-    <%= f.select(:score, options_for_select(models_scores, @model.score)) %>
-    <%= f.submit 'Rate!' %>
+    <%= f.select(:score, options_for_select(scores, @model.score)) %>
+    <%= f.submit 'Votar!' %>
   </div>
 <% end %>
 
-<%= link_to 'Edit', edit_model_path(@model) %> |
-<%= link_to 'Back', models_path %>
+<%= link_to 'Editar', edit_model_path(@model) %> |
+<%= link_to 'Voltar', models_path %>

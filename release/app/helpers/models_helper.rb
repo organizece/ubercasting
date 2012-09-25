@@ -1,28 +1,29 @@
 module ModelsHelper
 
-  def ethnicity_types
-    ethnicity_types = []
-    ethnicity_types << ['Muito clara', :muito_clara]
-    ethnicity_types << ['Bege', :bege]
-    ethnicity_types << ['Oriental', :oriental]
-    ethnicity_types << ['Morena', :morena]
-    ethnicity_types << ['Morena escura', :morena_escura]
-    ethnicity_types << ['Mestico', :mestico]
-    ethnicity_types << ['Mulata amarelada', :mulata_amarelada]
-    ethnicity_types << ['Mulata escura', :mulata_escura]
-    ethnicity_types << ['Negra amarelada', :negra_amarelada]
-    ethnicity_types << ['Negra escura', :negra_amarelada]
-
+  def ethnicities
+    ethnicities = []
+    Model::ETHNICITIES.each { |ethnicity|
+        ethnicities << [I18n.t(ethnicity, scope: :ethnicities), ethnicity]
+    }
     
-    ethnicity_types
+    ethnicities
   end
 
-  def biotype_types
-    biotype_types = []
-    biotype_types << ['b01', :b01]
-    biotype_types << ['b02', :b02]
-    biotype_types << ['b03', :b03]
+  def biotypes
+    biotypes = []
+    Model::BIOTYPES.each { |biotype|
+        biotypes << [I18n.t(biotype, scope: :biotypes), biotype]
+    }
 
-    biotype_types
+    biotypes
+  end
+
+  def scores
+    scores = []
+    (0..5).each do |score|
+      scores << [score, score]
+    end
+
+    scores
   end
 end

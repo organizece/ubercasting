@@ -24,6 +24,8 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+gem 'brazilian-rails'
+
 group :test do
     gem 'shoulda'
     gem 'mocha'

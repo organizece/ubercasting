@@ -1,0 +1,178 @@
+pt:
+# formatos de data e hora
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%d de %B"
+      long: "%d de %B de %Y"
+
+    day_names: [Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado]
+    abbr_day_names: [Dom, Seg, Ter, Qua, Qui, Sex, Sáb]
+
+    month_names: [~, Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+    abbr_month_names: [~, Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez]
+    order:
+      - :day
+      - :month
+      - :year
+
+  time:
+    formats:
+      default: "%A, %d de %B de %Y, %H:%M h"
+      short: "%d/%m, %H:%M h"
+      long: "%A, %d de %B de %Y, %H:%M h"
+    am: ''
+    pm: ''
+
+# Mensagens de erro
+  errors:
+    format: "%{attribute} %{message}"
+
+    template:
+      header:
+        one: "Não foi possível gravar %{model}: 1 erro"
+        other: "Não foi possível gravar %{model}: %{count} erros."
+      body: "Por favor, verifique o(s) seguinte(s) campo(s):"
+
+    messages: &errors_messages
+      inclusion: "não está incluído na lista"
+      exclusion: "não está disponível"
+      invalid: "não é válido"
+      confirmation: "não está de acordo com a confirmação"
+      accepted: "deve ser aceito"
+      empty: "não pode ficar vazio"
+      blank: "não pode ficar em branco"
+      too_long: "é muito longo (máximo: %{count} caracteres)"
+      too_short: "é muito curto (mínimo: %{count} caracteres)"
+      wrong_length: "não possui o tamanho esperado (%{count} caracteres)"
+      not_a_number: "não é um número"
+      not_an_integer: "não é um número inteiro"
+      greater_than: "deve ser maior que %{count}"
+      greater_than_or_equal_to: "deve ser maior ou igual a %{count}"
+      equal_to: "deve ser igual a %{count}"
+      less_than: "deve ser menor que %{count}"
+      less_than_or_equal_to: "deve ser menor ou igual a %{count}"
+      odd: "deve ser ímpar"
+      even: "deve ser par"
+
+# Campos relacionados ao ActiveRecord
+  activerecord:
+
+    models:
+      agency: Agência
+      model: Modelo
+
+    attributes:
+      agency:
+        name: Nome
+        email: E-mail
+        password: Senha
+        password_confirmation: Confirmação da Senha
+        cnpj: CNPJ
+        owner_name: Nome do Responsável
+        owner_cpf: CPF do Responsável
+        domain: Domínio
+      model:
+        name: Nome
+        birthday: Data de Nascimento
+        age: Idade
+        gender: Sexo
+        ethnicity: Etnia
+        biotype: Biotipo
+        responsible: Responsável
+        responsible_cpf: CPF do Responsável
+        responsible_rg: RG do Responsável
+        height: Altura
+        eyes_color: Cor dos Olhos
+        hair_color: Cor dos Cabelos
+        bust: Busto
+        waist: Cintura
+        hip: Quadril
+        shoes: Sapatos
+        sector: Setor
+        job: Cargo
+        rg: RG
+        cpf: CPF
+        cel_phone: Tel. Celular
+        home_phone: Tel. Residencial
+        job_phone: Tel. Comercial
+        address: Endereço
+        address_number: Número
+        neighborhood: Bairro
+        complement: Complemento
+        cep: CEP
+        city: Cidade
+        state: Estado
+        country: País
+        bank: Banco
+        bank_account: Conta
+        bank_account_type: Tipo da Conta
+        bank_agency: Agência
+        personal_email: E-mail Pessoal
+        job_email: E-mail Comercial
+        other_email: Outro E-mail
+        site_url: Site / Blog
+        score: Score
+
+    errors:
+      template:
+        header:
+          one: "Não foi possível gravar %{model}: 1 erro"
+          other: "Não foi possível gravar %{model}: %{count} erros."
+        body: "Por favor, verifique o(s) seguinte(s) campo(s):"
+      messages:
+        taken: "já está em uso"
+        record_invalid: "A validação falhou: %{errors}"
+        <<: *errors_messages
+      full_messages:
+        format: "%{attribute} %{message}"
+
+  ethnicities:
+    muito_clara: Muito clara
+    bege: Bege
+    oriental: Oriental
+    morena: Morena
+    morena_escura: Morena escura
+    mestico: Mestiço
+    mulata_amarelada: Mulata amarelada
+    mulata_escura: Mulata escura
+    negra_amarelada: Negra amarelada
+    negra_escura: Negra escura
+
+  biotypes:
+    b01: Biotipo 01
+    b02: Biotipo 02
+    b03: Biotipo 03
+
+  genders:
+    male: Masculino
+    female: Feminino
+
+  states:
+    AC: Acre
+    AL: Alagoas
+    AP: Amapá
+    AM: Amazonas
+    BH: Bahia
+    CE: Ceará
+    DF: Distrito Federal
+    ES: Espírito Santo
+    GO: Goiás
+    MA: Maranhão
+    MT: Mato Grosso
+    MS: Mato Grosso do Sul
+    MG: Minas Gerais
+    PA: Pará
+    PB: Paraíba
+    PR: Paraná
+    PE: Pernambuco
+    PI: Piauí
+    RJ: Rio de Janeiro
+    RN: Rio Grande do Norte
+    RS: Rio Grande do Sul
+    RO: Rondônia
+    RR: Roraima
+    SC: Santa Catarina
+    SP: São Paulo
+    SE: Sergipe
+    TO: Tocantins

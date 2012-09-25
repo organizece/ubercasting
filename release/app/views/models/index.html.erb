@@ -1,13 +1,13 @@
-<h1>Listing models</h1>
+<h1>Lista de Modelos</h1>
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Birthday</th>
-    <th>Age</th>
-    <th>Sex</th>
-    <th>Ethnicity</th>
-    <th>Biotype</th>
+    <th><%= Model.human_attribute_name(:name) %></th>
+    <th><%= Model.human_attribute_name(:birthday) %></th>
+    <th><%= Model.human_attribute_name(:age) %></th>
+    <th><%= Model.human_attribute_name(:gender) %></th>
+    <th><%= Model.human_attribute_name(:ethnicity) %></th>
+    <th><%= Model.human_attribute_name(:biotype) %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -18,16 +18,16 @@
     <td><%= model.name %></td>
     <td><%= model.birthday %></td>
     <td><%= model.age %></td>
-    <td><%= model.sex %></td>
-    <td><%= model.ethnicity %></td>
-    <td><%= model.biotype %></td>
-    <td><%= link_to 'Show', model %></td>
-    <td><%= link_to 'Edit', edit_model_path(model) %></td>
-    <td><%= link_to 'Destroy', model, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= I18n.t(model.gender, scope: :genders) %></td>
+    <td><%= I18n.t(model.ethnicity, scope: :ethnicities) %></td>
+    <td><%= I18n.t(model.biotype, scope: :biotypes) %></td>
+    <td><%= link_to 'Exibir', model %></td>
+    <td><%= link_to 'Editar', edit_model_path(model) %></td>
+    <td><%= link_to 'Deletar', model, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Model', new_model_path %>
+<%= link_to 'Novo Modelo', new_model_path %>
