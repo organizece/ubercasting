@@ -3,7 +3,7 @@ module ModelsHelper
   def ethnicities
     ethnicities = []
     Model::ETHNICITIES.each { |ethnicity|
-        ethnicities << [I18n.t(ethnicity, scope: :ethnicities), ethnicity]
+        ethnicities << [t(ethnicity, scope: :ethnicities), ethnicity]
     }
     
     ethnicities
@@ -12,7 +12,7 @@ module ModelsHelper
   def biotypes
     biotypes = []
     Model::BIOTYPES.each { |biotype|
-        biotypes << [I18n.t(biotype, scope: :biotypes), biotype]
+        biotypes << [t(biotype, scope: :biotypes), biotype]
     }
 
     biotypes

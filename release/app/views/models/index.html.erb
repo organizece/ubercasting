@@ -16,11 +16,11 @@
 <% @models.each do |model| %>
   <tr>
     <td><%= model.name %></td>
-    <td><%= model.birthday %></td>
+    <td><%= l model.birthday %></td>
     <td><%= model.age %></td>
-    <td><%= I18n.t(model.gender, scope: :genders) %></td>
-    <td><%= I18n.t(model.ethnicity, scope: :ethnicities) %></td>
-    <td><%= I18n.t(model.biotype, scope: :biotypes) %></td>
+    <td><%= t model.gender, scope: :genders %></td>
+    <td><%= t model.ethnicity, scope: :ethnicities %></td>
+    <td><%= t model.biotype, scope: :biotypes %></td>
     <td><%= link_to 'Exibir', model %></td>
     <td><%= link_to 'Editar', edit_model_path(model) %></td>
     <td><%= link_to 'Deletar', model, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>

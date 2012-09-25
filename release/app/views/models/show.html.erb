@@ -5,7 +5,7 @@
   </p>
   <p>
     <b><%= Model.human_attribute_name(:birthday) %>:</b>
-    <%= @model.birthday %>
+    <%= l @model.birthday %>
   </p>
   <p>
     <b><%= Model.human_attribute_name(:age) %>:</b>
@@ -13,15 +13,15 @@
   </p>
   <p>
     <b><%= Model.human_attribute_name(:gender) %>:</b>
-    <%= I18n.t(@model.gender, scope: :genders) %>
+    <%= t @model.gender, scope: :genders %>
   </p>
   <p>
     <b><%= Model.human_attribute_name(:ethnicity) %>:</b>
-    <%= I18n.t(@model.ethnicity, scope: :ethnicities) %>
+    <%= t @model.ethnicity, scope: :ethnicities %>
   </p>
   <p>
     <b><%= Model.human_attribute_name(:biotype) %>:</b>
-    <%= I18n.t(@model.biotype, scope: :biotypes) %>
+    <%= t @model.biotype, scope: :biotypes %>
   </p>
 </div>
 <div class="responsible info">
@@ -125,7 +125,7 @@
   </p>
   <p>
     <b><%= Model.human_attribute_name(:state) %>:</b>
-    <%= I18n.t(@model.state, scope: :states) unless @model.state.nil? || @model.state.blank? %>
+    <%= t @model.state, scope: :states unless @model.state.nil? || @model.state.blank? %>
   </p>
   <p>
     <b><%= Model.human_attribute_name(:country) %>:</b>
