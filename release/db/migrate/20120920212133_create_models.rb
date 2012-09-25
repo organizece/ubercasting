@@ -4,7 +4,7 @@ class CreateModels < ActiveRecord::Migration
       t.string :name
       t.date :birthday
       t.integer :age
-      t.string :sex
+      t.string :gender
       t.string :ethnicity
       t.string :biotype
 

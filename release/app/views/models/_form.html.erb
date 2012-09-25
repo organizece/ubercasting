@@ -18,26 +18,26 @@
     </div>
     <div class="field">
       <%= f.label :birthday %><br />
-      <%= date_select :model, :birthday, order: [:day, :month, :year] %>
+      <%= date_select :model, :birthday, order: [:day, :month, :year], start_year: 1900, end_year: Time.now.year, default: Time.now.years_ago(18) %>
     </div>
     <div class="field">
       <%= f.label :age %><br />
       <%= f.text_field :age %>
     </div>
     <div class="field">
-      <%= f.label :sex %><br />
-      <%= f.radio_button(:sex, :male) %>
-      <%= f.label(:sex_male, "Masculino") %>
-      <%= f.radio_button(:sex, :female) %>
-      <%= f.label(:sex_female, "Feminino") %>
+      <%= f.label :gender %><br />
+      <%= f.radio_button(:gender, :male) %>
+      <%= f.label(:gender_male, "Masculino") %>
+      <%= f.radio_button(:gender, :female) %>
+      <%= f.label(:gender_female, "Feminino") %>
     </div>
     <div class="field">
       <%= f.label :ethnicity %><br />
-      <%= f.select(:ethnicity, options_for_select(ethnicity_types, @model.ethnicity)) %>
+      <%= f.select(:ethnicity, options_for_select(ethnicities, @model.ethnicity)) %>
     </div>
     <div class="field">
       <%= f.label :biotype %><br />
-      <%= f.select(:biotype, options_for_select(biotype_types, @model.biotype)) %>
+      <%= f.select(:biotype, options_for_select(biotypes, @model.biotype)) %>
     </div>
   </div>
   <div class="responsible info">
