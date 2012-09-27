@@ -19570,3 +19570,193 @@ Served asset /models.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-25 19:58:48 -0300
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/models/1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Processing by ModelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.4ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35mModel Load (0.4ms)[0m  SELECT "models".* FROM "models" WHERE "models"."agency_id" = 1 AND "models"."id" = 1 LIMIT 1
+  Rendered models/show.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 29ms (Views: 23.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:14 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/models/new" for 127.0.0.1 at 2012-09-25 21:43:32 -0300
+Processing by ModelsController#new as HTML
+  [1m[36mAgency Load (0.4ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  Rendered models/_form.html.erb (57.6ms)
+  Rendered models/new.html.erb within layouts/application (59.3ms)
+Completed 200 OK in 75ms (Views: 71.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-25 21:43:33 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/models/1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Processing by ModelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mModel Load (0.3ms)[0m  [1mSELECT "models".* FROM "models" WHERE "models"."agency_id" = 1 AND "models"."id" = 1 LIMIT 1[0m
+  Rendered models/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 23ms (Views: 19.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:13 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/models" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Processing by ModelsController#index as HTML
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mModel Load (0.4ms)[0m  [1mSELECT "models".* FROM "models" WHERE "models"."agency_id" = 1[0m
+  Rendered models/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-09-25 21:45:20 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
