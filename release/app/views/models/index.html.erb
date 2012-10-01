@@ -8,6 +8,7 @@
     <th><%= Model.human_attribute_name(:gender) %></th>
     <th><%= Model.human_attribute_name(:ethnicity) %></th>
     <th><%= Model.human_attribute_name(:biotype) %></th>
+    <th><%= Model.human_attribute_name(:avatar) %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -22,6 +23,13 @@
     <td><%= t model.gender, scope: :genders %></td>
     <td><%= t model.ethnicity, scope: :ethnicities %></td>
     <td><%= t model.biotype, scope: :biotypes %></td>
+    <td>
+        <% if model.avatar %>
+            <%= image_tag model.avatar.image.url(:thumb)  %>
+        <% else %>
+            <%= image_tag 'avatar.png' %>
+        <% end %>
+    </td>
     <td><%= link_to 'Exibir', model %></td>
     <td><%= link_to 'Editar', edit_model_path(model) %></td>
     <td><%= link_to 'Deletar', model, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>
