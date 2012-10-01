@@ -2,11 +2,11 @@ class PhotosController < ApplicationController
   # GET /photos
   # GET /photos.json
   def index
-    @photos = Photo.all
+    @photos = Model.find(params[:model_id]).photos
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @photos }
+      format.json { render json: @photos.collect { |p| p.to_jq_upload }.to_json }
     end
   end
 
@@ -40,16 +40,33 @@ class PhotosController < ApplicationController
   # POST /photos
   # POST /photos.json
   def create
-    @photo = Photo.new(params[:photo])
+    # @photo = Photo.new(params[:photo])
 
-    respond_to do |format|
-      if @photo.save
-        format.html { redirect_to @photo, notice: 'Photo was successfully created.' }
-        format.json { render json: @photo, status: :created, location: @photo }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @photo.errors, status: :unprocessable_entity }
+    # respond_to do |format|
+    #   if @photo.save
+    #     format.html { redirect_to @photo, notice: 'Photo was successfully created.' }
+    #     format.json { render json: @photo, status: :created, location: @photo }
+    #   else
+    #     format.html { render action: "new" }
+    #     format.json { render json: @photo.errors, status: :unprocessable_entity }
+    #   end
+    # end
+    @photo = Photo.new
+    @photo.image = params[:photo][:image].shift
+    @photo.model_id = params[:model_id]
+    if @photo.save
+      respond_to do |format|
+        format.html {  
+          render :json => [@photo.to_jq_upload].to_json, 
+          :content_type => 'text/html',
+          :layout => false
+        }
+        format.json {  
+          render :json => [@photo.to_jq_upload].to_json     
+        }
       end
+    else 
+      render :json => [{:error => "custom_failure"}], :status => 304
     end
   end
 
@@ -76,7 +93,7 @@ class PhotosController < ApplicationController
     @photo.destroy
 
     respond_to do |format|
-      format.html { redirect_to photos_url }
+      format.html { redirect_to model_gallery_path }
       format.json { head :no_content }
     end
   end
