@@ -169,7 +169,7 @@
   </p>
 </div>
 
-<%= form_for @model, :action => :update, :format => :js, :remote => true do |f| %>
+<%= form_for @model, :action => :update, :remote => true do |f| %>
   <div class="field">
     <%= f.label :score %><br />
     <%= f.select(:score, options_for_select(scores, @model.score)) %>

@@ -5,7 +5,7 @@ class Photo < ActiveRecord::Base
 
   attr_accessible :image
 
-  has_attached_file :image, styles: { thumb: "100x100>" }
+  has_attached_file :image, styles: { thumb: "128x128>" }
 
   #one convenient method to pass jq_upload the necessary information
   def to_jq_upload

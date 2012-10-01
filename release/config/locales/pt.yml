@@ -233,6 +233,7 @@ pt:
         other_email: Outro E-mail
         site_url: Site / Blog
         score: Score
+        avatar: Avatar
 
     errors:
       template:
