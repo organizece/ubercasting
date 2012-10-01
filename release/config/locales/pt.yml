@@ -180,6 +180,7 @@ pt:
     models:
       agency: Agência
       model: Modelo
+      photo: Foto
 
     attributes:
       agency:

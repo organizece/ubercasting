@@ -18,6 +18,9 @@ class Model < ActiveRecord::Base
   GENDERS = %w( male
                 female )
 
+  belongs_to :agency
+  has_many :photos
+
   attr_accessible :name, :birthday, :age, :gender, :ethnicity, :biotype, :responsible, :responsible_cpf, :responsible_rg,
     :height, :eyes_color, :hair_color, :bust, :waist, :hip, :shoes, :sector, :job, :rg, :cpf, :cel_phone, :home_phone,
     :job_phone, :address, :address_number, :neighborhood, :complement, :cep, :city, :state, :country, :bank, 
@@ -31,12 +34,10 @@ class Model < ActiveRecord::Base
   validates :gender, presence: true, inclusion: { in: GENDERS }
   validates :ethnicity, presence: true, inclusion: { in: ETHNICITIES }
   validates :biotype, presence: true, inclusion: { in: BIOTYPES }
-
+  
   validates :responsible, presence: true, if: :minor_aged?
   validates :responsible_cpf, presence: true, cpf: true, if: :minor_aged?
   validates :responsible_rg, presence: true, if: :minor_aged?
-
-  belongs_to :agency
 
   def minor_aged?
     age < 18

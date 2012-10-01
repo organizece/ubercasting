@@ -2,7 +2,10 @@ Ubercasting::Application.routes.draw do
 
   devise_for :agencies, :controllers => { :sessions => "agencies/sessions" }
 
-  resources :models
+  resources :models do
+    resources :photos, except: [:edit, :update, :index]
+    match "gallery/" => "photos#index"
+  end
 
   resources :agencies, except: [:index]
 
