@@ -2,7 +2,8 @@ class PhotosController < ApplicationController
   # GET /photos
   # GET /photos.json
   def index
-    @photos = Model.find(params[:model_id]).photos
+    @model = Model.find(params[:model_id])
+    @photos = @model.photos
 
     respond_to do |format|
       format.html # index.html.erb

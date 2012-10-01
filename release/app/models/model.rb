@@ -19,12 +19,12 @@ class Model < ActiveRecord::Base
                 female )
 
   belongs_to :agency
-  has_many :photos
+  has_many :photos, dependent: :destroy
 
   attr_accessible :name, :birthday, :age, :gender, :ethnicity, :biotype, :responsible, :responsible_cpf, :responsible_rg,
     :height, :eyes_color, :hair_color, :bust, :waist, :hip, :shoes, :sector, :job, :rg, :cpf, :cel_phone, :home_phone,
     :job_phone, :address, :address_number, :neighborhood, :complement, :cep, :city, :state, :country, :bank, 
-    :bank_account, :bank_account_type, :bank_agency, :personal_email, :job_email, :other_email, :site_url, :score
+    :bank_account, :bank_account_type, :bank_agency, :personal_email, :job_email, :other_email, :site_url, :score, :avatar_photo_id
 
   attr_readonly :ETHNICITIES, :BIOTYPES, :GENDERS
   
@@ -41,6 +41,10 @@ class Model < ActiveRecord::Base
 
   def minor_aged?
     age < 18
+  end
+
+  def avatar
+    self.photos.find_by_id(avatar_photo_id)
   end
 
 end
