@@ -44640,3 +44640,1941 @@ Served asset /application.js - 304 Not Modified (6ms)
 
 Started GET "/assets/avatar.png" for 127.0.0.1 at 2012-10-01 11:04:05 -0300
 Served asset /avatar.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-02 22:02:16 -0300
+Processing by AgenciesController#show as HTML
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to 
+Completed 500 Internal Server Error in 133ms
+
+ActionController::RoutingError (No route matches {:action=>"edit", :controller=>"agencies"}):
+  app/controllers/agencies_controller.rb:28:in `first_access?'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-02 22:03:38 -0300
+Processing by AgenciesController#show as HTML
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to 
+Completed 500 Internal Server Error in 87ms
+
+ActionController::RoutingError (No route matches {:action=>"edit", :controller=>"agencies"}):
+  app/controllers/agencies_controller.rb:28:in `first_access?'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#show as HTML
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 51ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:48 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:05:49 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:02 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:23 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  Rendered agencies/_form.html.erb (33.0ms)
+  Rendered agencies/edit.html.erb (41.4ms)
+Completed 200 OK in 140ms (Views: 44.6ms | ActiveRecord: 1.3ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:06:26 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNK3p/DLFsi+x2gyst+0mV7pJ5S3Oi3kNipSsKKu33Y=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:06:26 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  Rendered agencies/_form.html.erb (2.3ms)
+  Rendered agencies/edit.html.erb (3.3ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:07:36 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNK3p/DLFsi+x2gyst+0mV7pJ5S3Oi3kNipSsKKu33Y=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.4ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered agencies/_form.html.erb (5.1ms)
+  Rendered agencies/edit.html.erb (6.1ms)
+Completed 200 OK in 65ms (Views: 9.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-02 22:10:41 -0300
+Processing by AgenciesController#show as HTML
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 90ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:10:41 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered agencies/_form.html.erb (3.6ms)
+  Rendered agencies/edit.html.erb (4.4ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:10:49 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNK3p/DLFsi+x2gyst+0mV7pJ5S3Oi3kNipSsKKu33Y=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35mAgency Load (0.1ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered agencies/_form.html.erb (3.3ms)
+  Rendered agencies/edit.html.erb (4.4ms)
+Completed 200 OK in 15ms (Views: 7.2ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:11:47 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNK3p/DLFsi+x2gyst+0mV7pJ5S3Oi3kNipSsKKu33Y=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered agencies/_form.html.erb (3.0ms)
+  Rendered agencies/edit.html.erb (3.9ms)
+Completed 200 OK in 101ms (Views: 6.8ms | ActiveRecord: 1.8ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:12:04 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNK3p/DLFsi+x2gyst+0mV7pJ5S3Oi3kNipSsKKu33Y=", "agency"=>{"domain"=>"glamournanet"}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "agencies" SET "domain" = 'glamournanet', "updated_at" = '2012-10-03 01:12:04.195633' WHERE "agencies"."id" = 1
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/agencies/1
+Completed 302 Found in 78ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/agencies/1" for 127.0.0.1 at 2012-10-02 22:12:04 -0300
+Processing by AgenciesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  Rendered agencies/show.html.erb (2.1ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/models" for 127.0.0.1 at 2012-10-02 22:12:07 -0300
+Processing by ModelsController#index as HTML
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35mModel Load (0.9ms)[0m  SELECT "models".* FROM "models" WHERE "models"."agency_id" = 1
+  [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."model_id" = 1 AND "photos"."id" = 43 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."model_id" = 1 AND "photos"."id" = 43 LIMIT 1
+  [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."model_id" = 4 AND "photos"."id" IS NULL LIMIT 1[0m
+  Rendered models/index.html.erb within layouts/application (153.0ms)
+Compiled agencies.css  (13ms)  (pid 7169)
+Compiled bootstrap-image-gallery.css  (0ms)  (pid 7169)
+Compiled bootstrap_and_overrides.css  (3647ms)  (pid 7169)
+Compiled jquery.fileupload-ui.css  (0ms)  (pid 7169)
+Compiled models.css  (2ms)  (pid 7169)
+Compiled photos.css  (2ms)  (pid 7169)
+Compiled scaffolds.css  (22ms)  (pid 7169)
+Compiled application.css  (3863ms)  (pid 7169)
+Compiled jquery.js  (8ms)  (pid 7169)
+Compiled jquery_ujs.js  (40ms)  (pid 7169)
+Compiled agencies.js  (121ms)  (pid 7169)
+Compiled vendor/jquery.ui.widget.js  (0ms)  (pid 7169)
+Compiled tmpl.min.js  (0ms)  (pid 7169)
+Compiled load-image.min.js  (0ms)  (pid 7169)
+Compiled canvas-to-blob.min.js  (0ms)  (pid 7169)
+Compiled bootstrap.min.js  (0ms)  (pid 7169)
+Compiled bootstrap-image-gallery.min.js  (0ms)  (pid 7169)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 7169)
+Compiled jquery.fileupload.js  (1ms)  (pid 7169)
+Compiled jquery.fileupload-fp.js  (0ms)  (pid 7169)
+Compiled jquery.fileupload-ui.js  (0ms)  (pid 7169)
+Compiled main.js  (0ms)  (pid 7169)
+Compiled jquery_file_upload.js  (272ms)  (pid 7169)
+Compiled models.js  (95ms)  (pid 7169)
+Compiled photos.js  (182ms)  (pid 7169)
+Compiled application.js  (828ms)  (pid 7169)
+Completed 200 OK in 5180ms (Views: 5160.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /application.css - 304 Not Modified (57ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /photos.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /agencies.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /models.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (72ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /agencies.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /tmpl.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /load-image.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /main.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /models.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /photos.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/avatar.png" for 127.0.0.1 at 2012-10-02 22:12:12 -0300
+Served asset /avatar.png - 200 OK (18ms)
+
+
+Started GET "/models/new" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Processing by ModelsController#new as HTML
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  Rendered models/_form.html.erb (41.3ms)
+  Rendered models/new.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 120ms (Views: 116.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:12:17 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/models" for 127.0.0.1 at 2012-10-02 22:12:21 -0300
+Processing by ModelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNK3p/DLFsi+x2gyst+0mV7pJ5S3Oi3kNipSsKKu33Y=", "model"=>{"name"=>"", "birthday(3i)"=>"2", "birthday(2i)"=>"10", "birthday(1i)"=>"1994", "age"=>"", "ethnicity"=>"muito_clara", "biotype"=>"b01", "responsible"=>"", "responsible_cpf"=>"", "responsible_rg"=>"", "height"=>"", "eyes_color"=>"", "hair_color"=>"", "bust"=>"", "waist"=>"", "hip"=>"", "shoes"=>"", "sector"=>"", "job"=>"", "rg"=>"", "cpf"=>"", "cel_phone"=>"", "home_phone"=>"", "job_phone"=>"", "address"=>"", "address_number"=>"", "neighborhood"=>"", "complement"=>"", "cep"=>"", "city"=>"", "state"=>"", "country"=>"", "bank"=>"", "bank_agency"=>"", "bank_account"=>"", "bank_account_type"=>"", "personal_email"=>"", "job_email"=>"", "other_email"=>"", "site_url"=>""}, "commit"=>"Criar Modelo"}
+  [1m[36mAgency Load (0.4ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 22ms
+
+NoMethodError (undefined method `<' for nil:NilClass):
+  app/models/model.rb:43:in `minor_aged?'
+  app/controllers/models_controller.rb:53:in `block in create'
+  app/controllers/models_controller.rb:52:in `create'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started POST "/models" for 127.0.0.1 at 2012-10-02 22:13:23 -0300
+Processing by ModelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNK3p/DLFsi+x2gyst+0mV7pJ5S3Oi3kNipSsKKu33Y=", "model"=>{"name"=>"", "birthday(3i)"=>"2", "birthday(2i)"=>"10", "birthday(1i)"=>"1994", "age"=>"", "ethnicity"=>"muito_clara", "biotype"=>"b01", "responsible"=>"", "responsible_cpf"=>"", "responsible_rg"=>"", "height"=>"", "eyes_color"=>"", "hair_color"=>"", "bust"=>"", "waist"=>"", "hip"=>"", "shoes"=>"", "sector"=>"", "job"=>"", "rg"=>"", "cpf"=>"", "cel_phone"=>"", "home_phone"=>"", "job_phone"=>"", "address"=>"", "address_number"=>"", "neighborhood"=>"", "complement"=>"", "cep"=>"", "city"=>"", "state"=>"", "country"=>"", "bank"=>"", "bank_agency"=>"", "bank_account"=>"", "bank_account_type"=>"", "personal_email"=>"", "job_email"=>"", "other_email"=>"", "site_url"=>""}, "commit"=>"Criar Modelo"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered models/_form.html.erb (35.9ms)
+  Rendered models/new.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 294ms (Views: 104.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:13:24 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/agencies/sign_out" for 127.0.0.1 at 2012-10-02 22:17:35 -0300
+Processing by Agencies::SessionsController#destroy as HTML
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "agencies" SET "remember_created_at" = NULL, "updated_at" = '2012-10-03 01:17:35.857178' WHERE "agencies"."id" = 1[0m
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-02 22:17:35 -0300
+Processing by AgenciesController#show as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/agencies/sign_in" for 127.0.0.1 at 2012-10-02 22:17:35 -0300
+Processing by Agencies::SessionsController#new as HTML
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views/devise/shared/_links.erb (3.2ms)
+  Rendered agencies/sessions/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:35 -0300
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:35 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:17:36 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started POST "/agencies/sign_in" for 127.0.0.1 at 2012-10-02 22:20:50 -0300
+Processing by Agencies::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"egC11s31mEZHBzQpx7hS2xBlAvaKAYr3S7F89wXbY3I=", "agency"=>{"email"=>"glamour@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mAgency Load (0.2ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."email" = 'glamour@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "agencies" SET "last_sign_in_at" = '2012-10-01 12:59:59.730379', "current_sign_in_at" = '2012-10-03 01:20:50.948667', "sign_in_count" = 7, "updated_at" = '2012-10-03 01:20:50.950727' WHERE "agencies"."id" = 1[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 473ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-02 22:20:50 -0300
+Processing by AgenciesController#show as HTML
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:20:51 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered agencies/_form.html.erb (3.6ms)
+  Rendered agencies/edit.html.erb (4.5ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:20:56 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"egC11s31mEZHBzQpx7hS2xBlAvaKAYr3S7F89wXbY3I=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[35mAgency Load (0.4ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.1ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered agencies/_form.html.erb (3.1ms)
+  Rendered agencies/edit.html.erb (4.0ms)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:33:27 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"egC11s31mEZHBzQpx7hS2xBlAvaKAYr3S7F89wXbY3I=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 108ms
+
+NameError (Could not render layout: undefined local variable or method `main' for #<AgenciesController:0x007ffc8d4dd000>):
+  app/controllers/agencies_controller.rb:23:in `block (2 levels) in update'
+  app/controllers/agencies_controller.rb:18:in `update'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.4ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:33:40 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"egC11s31mEZHBzQpx7hS2xBlAvaKAYr3S7F89wXbY3I=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[35mAgency Load (0.4ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.5ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 162ms
+
+NameError (Could not render layout: undefined local variable or method `application' for #<AgenciesController:0x007ffc8d3d8e20>):
+  app/controllers/agencies_controller.rb:23:in `block (2 levels) in update'
+  app/controllers/agencies_controller.rb:18:in `update'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.6ms)
+
+
+Started POST "/agencies/sign_in" for 127.0.0.1 at 2012-10-02 22:33:51 -0300
+Processing by Agencies::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"egC11s31mEZHBzQpx7hS2xBlAvaKAYr3S7F89wXbY3I=", "agency"=>{"email"=>"glamour@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-02 22:33:51 -0300
+Processing by AgenciesController#show as HTML
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/agencies/1/edit
+Filter chain halted as :first_access? rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:33:51 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.1ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 10ms
+
+NameError (Could not render layout: undefined local variable or method `application' for #<AgenciesController:0x007ffc8d2a9540>):
+  actionpack (3.2.8) lib/abstract_controller/layouts.rb:408:in `rescue in _default_layout'
+  actionpack (3.2.8) lib/abstract_controller/layouts.rb:405:in `_default_layout'
+  actionpack (3.2.8) lib/abstract_controller/layouts.rb:383:in `block in _layout_for_option'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:86:in `call'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:86:in `resolve_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:69:in `block in find_layout'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:228:in `with_layout_format'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `with_layout_format'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:69:in `find_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__967478339481465133__process_action__1982130559759653254__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__1250933224748294008__call__3889515774181221462__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:34:01 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 61ms
+
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:pt], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/brunobiasetti/Documents/projects/organizece/ubercasting/release/app/views"
+  * "/Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:79:in `resolve_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:86:in `resolve_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:69:in `block in find_layout'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:228:in `with_layout_format'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `with_layout_format'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:69:in `find_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__967478339481465133__process_action__1982130559759653254__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__1250933224748294008__call__3889515774181221462__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:34:03 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.1ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 10ms
+
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:pt], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/brunobiasetti/Documents/projects/organizece/ubercasting/release/app/views"
+  * "/Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194/gems/devise-2.1.2/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:79:in `resolve_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:86:in `resolve_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:69:in `block in find_layout'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:228:in `with_layout_format'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `with_layout_format'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:69:in `find_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__967478339481465133__process_action__1982130559759653254__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__1250933224748294008__call__3889515774181221462__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/brunobiasetti/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/brunobiasetti/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/agencies/1/edit" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Processing by AgenciesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAgency Load (0.2ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.3ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered agencies/_form.html.erb (3.9ms)
+  Rendered agencies/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 126ms (Views: 28.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:14 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"egC11s31mEZHBzQpx7hS2xBlAvaKAYr3S7F89wXbY3I=", "agency"=>{"domain"=>""}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.1ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered agencies/_form.html.erb (3.6ms)
+  Rendered agencies/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 35ms (Views: 26.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:34:44 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:34:45 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/agencies/1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Processing by AgenciesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"egC11s31mEZHBzQpx7hS2xBlAvaKAYr3S7F89wXbY3I=", "agency"=>{"domain"=>"glamour"}, "commit"=>"Atualizar Agência", "id"=>"1"}
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mAgency Load (0.1ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "agencies" SET "domain" = 'glamour', "updated_at" = '2012-10-03 01:36:03.706174' WHERE "agencies"."id" = 1[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/agencies/1
+Completed 302 Found in 10ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/agencies/1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Processing by AgenciesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAgency Load (0.4ms)[0m  [1mSELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1[0m
+  Rendered agencies/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:03 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:04 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:04 -0300
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:04 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:04 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:04 -0300
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:04 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/models" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Processing by ModelsController#index as HTML
+  [1m[35mAgency Load (0.3ms)[0m  SELECT "agencies".* FROM "agencies" WHERE "agencies"."id" = 1 LIMIT 1
+  [1m[36mModel Load (0.3ms)[0m  [1mSELECT "models".* FROM "models" WHERE "models"."agency_id" = 1[0m
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."model_id" = 1 AND "photos"."id" = 43 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."model_id" = 1 AND "photos"."id" = 43 LIMIT 1[0m
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."model_id" = 4 AND "photos"."id" IS NULL LIMIT 1
+  Rendered models/index.html.erb within layouts/application (105.5ms)
+Completed 200 OK in 131ms (Views: 126.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /bootstrap-image-gallery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/models.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /models.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /agencies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/agencies.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /agencies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tmpl.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /load-image.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /canvas-to-blob.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:09 -0300
+Served asset /bootstrap-image-gallery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_file_upload.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /jquery_file_upload.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/avatar.png" for 127.0.0.1 at 2012-10-02 22:36:10 -0300
+Served asset /avatar.png - 304 Not Modified (0ms)

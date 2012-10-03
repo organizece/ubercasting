@@ -8,4 +8,10 @@ class Agency < ActiveRecord::Base
 
   has_many :models
 
+  validates :domain, presence: true, if: :confirmed?
+
+  def confirmed?
+    confirmed_at != nil
+  end
+
 end
