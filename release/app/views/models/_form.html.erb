@@ -134,6 +134,7 @@
     <div class="field">
       <%= f.label :cep %><br />
       <%= f.text_field :cep %>
+      <a href="#" id="find_cep">Buscar CEP</a>
     </div>
     <div class="field">
       <%= f.label :city %><br />
@@ -188,3 +189,5 @@
     <%= f.submit %>
   </div>
 <% end %>
+
+<%= javascript_include_tag 'find_cep'%>

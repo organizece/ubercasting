@@ -40,7 +40,7 @@ class Model < ActiveRecord::Base
   validates :responsible_rg, presence: true, if: :minor_aged?
 
   def minor_aged?
-    age < 18
+    age != nil and age < 18
   end
 
   def avatar
