@@ -33,25 +33,9 @@ class PhotosController < ApplicationController
     end
   end
 
-  # GET /photos/1/edit
-  # def edit
-  #   @photo = Photo.find(params[:id])
-  # end
-
   # POST /photos
   # POST /photos.json
   def create
-    # @photo = Photo.new(params[:photo])
-
-    # respond_to do |format|
-    #   if @photo.save
-    #     format.html { redirect_to @photo, notice: 'Photo was successfully created.' }
-    #     format.json { render json: @photo, status: :created, location: @photo }
-    #   else
-    #     format.html { render action: "new" }
-    #     format.json { render json: @photo.errors, status: :unprocessable_entity }
-    #   end
-    # end
     @photo = Photo.new
     @photo.image = params[:photo][:image].shift
     @photo.model_id = params[:model_id]
@@ -70,22 +54,6 @@ class PhotosController < ApplicationController
       render :json => [{:error => "custom_failure"}], :status => 304
     end
   end
-
-  # PUT /photos/1
-  # PUT /photos/1.json
-  # def update
-  #   @photo = Photo.find(params[:id])
-
-  #   respond_to do |format|
-  #     if @photo.update_attributes(params[:photo])
-  #       format.html { redirect_to @photo, notice: 'Photo was successfully updated.' }
-  #       format.json { head :no_content }
-  #     else
-  #       format.html { render action: "edit" }
-  #       format.json { render json: @photo.errors, status: :unprocessable_entity }
-  #     end
-  #   end
-  # end
 
   # DELETE /photos/1
   # DELETE /photos/1.json
