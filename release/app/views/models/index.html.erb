@@ -1,43 +1,5 @@
-<h1>Lista de Modelos</h1>
+<h1>Gerenciar Modelos</h1>
+<h2>Buscar Modelos</h2>
+Utilize os filtros abaixo para uma busca mais precisa.
 
-<table>
-  <tr>
-    <th><%= Model.human_attribute_name(:name) %></th>
-    <th><%= Model.human_attribute_name(:birthday) %></th>
-    <th><%= Model.human_attribute_name(:age) %></th>
-    <th><%= Model.human_attribute_name(:gender) %></th>
-    <th><%= Model.human_attribute_name(:ethnicity) %></th>
-    <th><%= Model.human_attribute_name(:biotype) %></th>
-    <th><%= Model.human_attribute_name(:avatar) %></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @models.each do |model| %>
-  <tr>
-    <td><%= model.name %></td>
-    <td><%= l model.birthday %></td>
-    <td><%= model.age %></td>
-    <td><%= t model.gender, scope: :genders %></td>
-    <td><%= t model.ethnicity, scope: :ethnicities %></td>
-    <td><%= t model.biotype, scope: :biotypes %></td>
-    <td>
-        <% if model.avatar %>
-            <%= image_tag model.avatar.image.url(:thumb)  %>
-        <% else %>
-            <%= image_tag 'avatar.png' %>
-        <% end %>
-    </td>
-    <td><%= link_to 'Exibir', model %></td>
-    <td><%= link_to 'Editar', edit_model_path(model) %></td>
-    <td><%= link_to 'Deletar', model, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>
-    <td><%= link_to 'Galeria', model_gallery_path(model) %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'Novo Modelo', new_model_path %>
+<%= render 'search' %>

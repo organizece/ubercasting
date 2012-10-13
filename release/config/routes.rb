@@ -11,7 +11,8 @@ Ubercasting::Application.routes.draw do
 
   match "find_cep/:cep" => "utilities#find_cep", via: :get, as: :find_cep
 
-  root :to => 'agencies#show'
+  match "control_panel/" => "control_panel#show", as: :agency_root
 
-  # See how all your routes lay out with "rake routes"
+  root :to => "control_panel#show"
+
 end
