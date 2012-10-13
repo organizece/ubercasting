@@ -202,6 +202,7 @@ pt:
         responsible: Responsável
         responsible_cpf: CPF do Responsável
         responsible_rg: RG do Responsável
+        weight: Peso
         height: Altura
         eyes_color: Cor dos Olhos
         hair_color: Cor dos Cabelos
@@ -216,6 +217,7 @@ pt:
         cel_phone: Tel. Celular
         home_phone: Tel. Residencial
         job_phone: Tel. Comercial
+        specialty: Especialidade
         address: Endereço
         address_number: Número
         neighborhood: Bairro
@@ -248,6 +250,22 @@ pt:
       full_messages:
         format: "%{attribute} %{message}"
 
+  will_paginate:
+    previous_label: "&#8592; Anterior"
+    next_label: "Próximo &#8594;"
+    page_gap: "&hellip;"
+    page_entries_info:
+      single_page:
+        zero:  "%{model} não encontrado"
+        one:   "Exibindo 1 %{model}"
+        other: "Exibindo todos %{count} %{model}"
+      single_page_html:
+        zero:  "%{model} não encontrado"
+        one:   "Exibindo <b>1</b> %{model}"
+        other: "Exibindo todos <b>%{count}</b> %{model}"
+      multi_page: "Itens: %{from} a %{to} de %{count}"
+      multi_page_html: "Itens: <b>%{from}</b> a <b>%{to}</b> de <b>%{count}</b>"
+
   ethnicities:
     muito_clara: Muito clara
     bege: Bege
@@ -261,13 +279,39 @@ pt:
     negra_escura: Negra escura
 
   biotypes:
-    b01: Biotipo 01
-    b02: Biotipo 02
-    b03: Biotipo 03
+    branco: Branca(o)
+    mulato: Mulata(o)
+    negro: Negra(o)
+    mestico: Mestiça(o)
+    latino: Latina(o)
+    oriental: Oriental
 
   genders:
     male: Masculino
     female: Feminino
+
+  eyes_color:
+    azul_claro: Azul claro
+    azul_escuro: Azul escuro
+    castanho_claro: Castanho claro
+    castanho_escuro: Castanho escuro
+    verde_claro: Verde claro
+    verde_escuro: Verde escuro
+
+  hair_color:
+    branco: Branco / Grisalho
+    castanho_claro: Castanho claro
+    castanho_escuro: Castanho escuro
+    preto: Preto
+    loiro: Loiro
+    ruivo: Ruivo
+
+  specialties:
+    moda_passarela: Moda - Passarela
+    moda_editorial: Moda - Editorial
+    eventos: Eventos
+    publicidade: Publicidade
+    atuacao: Ator / Atriz
 
   states:
     AC: Acre

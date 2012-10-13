@@ -1,15 +1,12 @@
 class ModelsController < ApplicationController
   before_filter :authenticate_agency!
+  helper_method :sort_column, :sort_direction
 
   # GET /models
   # GET /models.json
   def index
-    @models = current_agency.models
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @models }
-    end
+    @models = Model.search(ModelSearchCriteria.build_criteria(params, current_agency)).
+      order(sort_column + " " + sort_direction).paginate(:per_page => per_page, :page => params[:page])
   end
 
   # GET /models/1
@@ -89,4 +86,17 @@ class ModelsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def sort_column
+    Model.column_names.include?(params[:order_column]) ? params[:order_column] : "name"
+  end
+  
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+  end
+
+  def per_page
+    ITENS_PER_PAGE.include?(params[:itens_per_page]) ? params[:itens_per_page] : 6
+  end
+
 end
