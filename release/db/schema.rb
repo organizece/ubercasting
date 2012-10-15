@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121013150436) do
+ActiveRecord::Schema.define(:version => 20121015012745) do
 
   create_table "agencies", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -43,11 +43,9 @@ ActiveRecord::Schema.define(:version => 20121013150436) do
   create_table "models", :force => true do |t|
     t.string   "name"
     t.date     "birthday"
-    t.integer  "age"
     t.string   "gender"
-    t.string   "ethnicity"
     t.string   "biotype"
-    t.string   "responsible"
+    t.string   "responsible_name"
     t.string   "responsible_cpf"
     t.string   "responsible_rg"
     t.decimal  "height"
@@ -56,13 +54,11 @@ ActiveRecord::Schema.define(:version => 20121013150436) do
     t.decimal  "bust"
     t.decimal  "waist"
     t.decimal  "hip"
-    t.integer  "shoes"
-    t.string   "sector"
-    t.string   "job"
+    t.integer  "shoes_size"
     t.string   "rg"
     t.string   "cpf"
-    t.string   "cel_phone"
-    t.string   "home_phone"
+    t.string   "personal_phone"
+    t.string   "secondary_phone"
     t.string   "job_phone"
     t.string   "address"
     t.string   "address_number"
@@ -78,15 +74,16 @@ ActiveRecord::Schema.define(:version => 20121013150436) do
     t.string   "bank_agency"
     t.string   "personal_email"
     t.string   "job_email"
-    t.string   "other_email"
+    t.string   "secondary_email"
     t.string   "site_url"
-    t.integer  "score"
     t.integer  "agency_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
     t.integer  "avatar_photo_id"
     t.string   "specialty"
     t.decimal  "weight"
+    t.date     "responsible_birthday"
+    t.text     "curriculum"
   end
 
   create_table "photos", :force => true do |t|

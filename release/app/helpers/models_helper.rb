@@ -154,6 +154,15 @@ module ModelsHelper
     hips
   end
 
+  def shoes_size
+    shoes_size = []
+    (20..50).each do |size|
+      shoes_size << [size, size]
+    end
+
+    shoes_size
+  end
+
   def order_columns
     columns = []
     columns << [Model.human_attribute_name(:age), :age]
