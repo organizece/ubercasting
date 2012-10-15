@@ -25,11 +25,6 @@ class ModelsController < ApplicationController
   # GET /models/new.json
   def new
     @model = Model.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @model }
-    end
   end
 
   # GET /models/1/edit
@@ -45,15 +40,25 @@ class ModelsController < ApplicationController
   def create
     @model = Model.new(params[:model])
     @model.agency = current_agency
+    @model.current_step = session[:model_step]
 
-    respond_to do |format|
-      if @model.save
-        format.html { redirect_to @model, notice: 'Model was successfully created.' }
-        format.json { render json: @model, status: :created, location: @model }
+    if @model.valid?
+      if params[:back_button]
+        @model.previous_step
+      elsif @model.last_step?
+        @model.save if @model.all_valid?
       else
-        format.html { render action: "new" }
-        format.json { render json: @model.errors, status: :unprocessable_entity }
+        @model.next_step
       end
+      session[:model_step] = @model.current_step
+    end
+
+    if @model.new_record?
+      render "new"
+    else
+      session[:model_step] = nil
+      flash[:notice] = "Model was successfully created."
+      redirect_to @model
     end
   end
 
